@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="myJob" xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="1.0">
+	<step id="myStep">
+		<batchlet ref="jp.yustam.batch.let.MyBatchLet" />
+<!--
+		<chunk>
+			<reader ref="jp.yustam.batch.MyItemReader" />
+			<processor ref="jp.yustam.batch.MyItemProcessor" />
+			<writer ref="jp.yustam.batch.MyItemWriter" />
+		</chunk>
+-->
+	</step>
+</job>
